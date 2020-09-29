@@ -4,7 +4,7 @@ Challenge lab walkthrough:
 
 ### Task 1: Create a project jumphost instance
 
-```bash
+```yaml
 gcloud compute instances create nucleus-jumphost \
           --network nucleus-vpc \
           --zone us-east1-b  \
@@ -16,7 +16,7 @@ gcloud compute instances create nucleus-jumphost \
 ```
 ### Task 2: Create a Kubernetes service cluster
 
-```bash
+```yaml
 gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
           --network nucleus-vpc \
@@ -35,7 +35,7 @@ kubectl expose deployment hello-server \
 
 ### Task 3: Setup an HTTP load balancer
 
-```bash
+```yaml
 cat << EOF > startup.sh
 #! /bin/bash
 apt-get update
