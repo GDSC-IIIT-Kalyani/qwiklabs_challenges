@@ -102,14 +102,13 @@ kubectl create -f wp-service.yaml
 ## Task 8: Enable monitoring
 
 1. Go to **OPERATIONS** > **Monitoring**
-
 2. Wait for the workspace creation to complete
-
 3. Go to **Uptime checks** > **CREATE UPTIME CHECKS**
-
 4. Now enter the info as below:
 
-   ![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png)
+<p align="center">
+  <img width=500 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png" alt="Uptime check" />
+</p>
 
 ## Task 9: Provide access for an additional engineer
 
