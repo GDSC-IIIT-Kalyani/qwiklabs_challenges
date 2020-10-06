@@ -107,14 +107,16 @@ kubectl create -f wp-service.yaml
 
 3. Go to **Uptime checks** > **CREATE UPTIME CHECKS**
 
-4. Now enter the info as below
+4. Now enter the info as below:
 
-   // image
+   ![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png)
 
 ## Task 9: Provide access for an additional engineer
 
 1. Go to **IAM & Admin** > **ADD**
 2. Enter the second username and give him **Project** > **Editor** access in **Role**
+
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/IAM.png)
 
 
 
