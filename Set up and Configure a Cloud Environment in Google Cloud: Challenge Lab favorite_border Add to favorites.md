@@ -107,7 +107,7 @@ kubectl create -f wp-service.yaml
 4. Now enter the info as below:
 
 <p align="center">
-  <img width=500 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png" alt="Uptime check" />
+  <img width=600 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png" alt="Uptime check" />
 </p>
 
 ## Task 9: Provide access for an additional engineer
@@ -116,7 +116,7 @@ kubectl create -f wp-service.yaml
 2. Enter the second username and give him **Project** > **Editor** access in **Role**
 
 <p align="center">
-  <img width=500 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/IAM.png" alt="IAM" />
+  <img width=600 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/IAM.png" alt="IAM" />
 </p>
 
 
