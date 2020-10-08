@@ -18,7 +18,7 @@ Some Jooli Inc. standards you should follow:
 - Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
 - Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **f1-micro** for small Linux VMs and **n1-standard-1** for Windows or other applications such as Kubernetes nodes.
 
-### Task 1: Create a bucket
+## Task 1: Create a bucket
 
 1. Navigation menu > **STORAGE** > Storage > Create Bucket
 2. Name your bucket > Enter **GCP Project ID** > Continue
