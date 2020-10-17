@@ -1,8 +1,16 @@
 # Getting Started: Create and Manage Cloud Resources: Challenge Lab
 
-Challenge lab walkthrough:
+> Launch the lab [here](https://google.qwiklabs.com/focuses/10258?parent=catalog)
+
+## Your challenge
+
+As soon as you sit down at your desk and open your new laptop you receive several requests from the Nucleus team. Read through each description, then create the resources.
+
+## Solving tasks
 
 ### Task 1: Create a project jumphost instance
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gcloud compute instances create nucleus-jumphost \
@@ -15,6 +23,8 @@ gcloud compute instances create nucleus-jumphost \
           --no-address
 ```
 ### Task 2: Create a Kubernetes service cluster
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gcloud container clusters create nucleus-backend \
@@ -34,6 +44,8 @@ kubectl expose deployment hello-server \
 ```
 
 ### Task 3: Setup an HTTP load balancer
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 cat << EOF > startup.sh
