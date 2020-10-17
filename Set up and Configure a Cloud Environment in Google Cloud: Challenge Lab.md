@@ -133,21 +133,4 @@ kubectl create -f wp-service.yaml
 1. Go to **IAM & Admin** > **ADD**
 2. Enter the second username and give him **Project** > **Editor** access in **Role**
 
-<p align="center">
-  <img width=600 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/IAM.png" alt="IAM" />
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width=600 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/IAM.png" alt="IAM" />
