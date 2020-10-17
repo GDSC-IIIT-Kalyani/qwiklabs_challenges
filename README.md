@@ -59,6 +59,7 @@ You will receive another form in the **last week of October** for you to confirm
 
 ## Support
 
-
+* Email: dscsupport@qwiklabs.com
+* There is online chat support available 24/7 for **Qwiklabs**. Select the Department as "**30 Days of Google Cloud**"
 
 ## License
