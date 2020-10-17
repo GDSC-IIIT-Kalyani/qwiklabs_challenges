@@ -45,10 +45,20 @@ These are the solutions to the Challenge Labs of the **Cloud Engineering Track**
   * [Integrate with Machine Learning APIs](https://google.qwiklabs.com/quests/136?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
   * [Explore Machine Learning Models with Explainable AI](https://google.qwiklabs.com/quests/126?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
 
-## Prizes
+## Rules for availing the prizes
 
+To earn prizes in the program, you need to **complete either of the track**!
 
+See the tracks and the prizes associated with them below. Your progress is recorded on a daily basis and will be evaluate at the end of the program i.e. **5th November 11:59 PM IST**.
+
+You will receive another form in the **last week of October** for you to confirm the tracks that you have finished and reconfirm your t-shirt size and shipping address.
+
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/assets/prizes_table.png)
+
+> For more information refer [here](https://events.withgoogle.com/30daysofgooglecloud/prize-rules/#content).
 
 ## Support
+
+
 
 ## License
