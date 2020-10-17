@@ -26,6 +26,8 @@ These are the solutions to the Challenge Labs of the **Cloud Engineering Track**
 
 ## Program Syllabus
 
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/assets/badges.png)
+
 * Track 1: Cloud Engineering Track
 
   * [Getting Started: Create and Manage Cloud Resources](https://google.qwiklabs.com/quests/120) 
@@ -44,6 +46,8 @@ These are the solutions to the Challenge Labs of the **Cloud Engineering Track**
   * [Explore Machine Learning Models with Explainable AI](https://google.qwiklabs.com/quests/126?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
 
 ## Prizes
+
+
 
 ## Support
 
