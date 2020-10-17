@@ -1,8 +1,16 @@
 # Set up and Configure a Cloud Environment in Google Cloud: Challenge Lab
 
-Challenge lab walkthrough:
+> Launch the lab [here](https://google.qwiklabs.com/quests/119?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
 
-## Task 1: Create development VPC manually
+## Your challenge
+
+You need to help the team with some of their initial work on a new project. They plan to use WordPress and need you to set up a development environment. Some of the work was already done for you, but other parts require your expert skills.
+
+As soon as you sit down at your desk and open your new laptop you receive the following request to complete these tasks.
+
+### Task 1: Create development VPC manually
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gcloud compute networks create griffin-dev-vpc --subnet-mode custom
@@ -12,7 +20,9 @@ gcloud compute networks subnets create griffin-dev-wp --network=griffin-dev-vpc 
 gcloud compute networks subnets create griffin-dev-mgmt --network=griffin-dev-vpc --region us-east1 --range=192.168.32.0/20
 ```
 
-## Task 2: Create production VPC using Deployment Manager
+### Task 2: Create production VPC using Deployment Manager
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gsutil cp -r gs://cloud-training/gsp321/dm .
@@ -25,7 +35,9 @@ gcloud deployment-manager deployments create prod-network \
     --config=prod-network.yaml
 ```
 
-## Task 3: Create bastion host
+### Task 3: Create bastion host
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 cd ..
@@ -37,7 +49,9 @@ gcloud compute firewall-rules create fw-ssh-dev --source-ranges=0.0.0.0/0 --targ
 gcloud compute firewall-rules create fw-ssh-prod --source-ranges=0.0.0.0/0 --target-tags ssh --allow=tcp:22 --network=griffin-prod-vpc
 ```
 
-## Task 4: Create and configure Cloud SQL Instance
+### Task 4: Create and configure Cloud SQL Instance
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gcloud sql instances create griffin-dev-db --root-password password --region=us-east1
@@ -53,7 +67,9 @@ FLUSH PRIVILEGES;
 exit;
 ```
 
-## Task 5: Create Kubernetes cluster
+### Task 5: Create Kubernetes cluster
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gcloud container clusters create griffin-dev \
@@ -66,7 +82,9 @@ gcloud container clusters create griffin-dev \
 gcloud container clusters get-credentials griffin-dev --zone us-east1-b
 ```
 
-## Task 6: Prepare the Kubernetes cluster
+### Task 6: Prepare the Kubernetes cluster
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 gsutil cp -r gs://cloud-training/gsp321/wp-k8s .
@@ -86,7 +104,9 @@ kubectl create secret generic cloudsql-instance-credentials \
     --from-file key.json
 ```
 
-## Task 7: Create a WordPress deployment
+### Task 7: Create a WordPress deployment
+
+* Run the following from the **Cloud Terminal**:
 
 ```yaml
 # Use the following for replace YOUR_SQL_INSTANCE with "griffin-dev-db"
@@ -99,18 +119,16 @@ kubectl create -f wp-deployment.yaml
 kubectl create -f wp-service.yaml
 ```
 
-## Task 8: Enable monitoring
+### Task 8: Enable monitoring
 
 1. Go to **OPERATIONS** > **Monitoring**
 2. Wait for the workspace creation to complete
 3. Go to **Uptime checks** > **CREATE UPTIME CHECKS**
 4. Now enter the info as below:
 
-<p align="center">
-  <img width=600 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png" alt="Uptime check" />
-</p>
+<img width=600 src="https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/uptime.png" alt="Uptime check" />
 
-## Task 9: Provide access for an additional engineer
+### Task 9: Provide access for an additional engineer
 
 1. Go to **IAM & Admin** > **ADD**
 2. Enter the second username and give him **Project** > **Editor** access in **Role**
