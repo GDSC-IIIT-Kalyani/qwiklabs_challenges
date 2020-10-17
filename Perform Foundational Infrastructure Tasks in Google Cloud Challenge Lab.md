@@ -1,5 +1,7 @@
 # Perform Foundational Infrastructure Tasks in Google Cloud: Challenge Lab
 
+> Launch the lab [here](https://google.qwiklabs.com/quests/118)
+
 In this lab there is no command line instructions, you have to just use the **Google Cloud Platform (GCP)** for completing this lab. A walkthrough of each task is available below: 
 
 ## Your challenge
@@ -18,6 +20,8 @@ Some Jooli Inc. standards you should follow:
 - Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
 - Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **f1-micro** for small Linux VMs and **n1-standard-1** for Windows or other applications such as Kubernetes nodes.
 
+## Solving tasks
+
 ### Task 1: Create a bucket
 
 1. Navigation menu > **STORAGE** > Storage > Create Bucket
@@ -26,12 +30,12 @@ Some Jooli Inc. standards you should follow:
 4. Use default for the remaining 
 5. Create
 
-## Task 2: Create a Pub/Sub topic
+### Task 2: Create a Pub/Sub topic
 
 1. Navigation menu > **BIG DATA** > Pub/Sub
 2. Create Topic > **Name:** Jooli > Create Topic
 
-## Task 3: Create the thumbnail Cloud Function
+### Task 3: Create the thumbnail Cloud Function
 
 1. Navigation menu > **COMPUTE** >  Cloud Functions > Create Function
 
@@ -52,7 +56,7 @@ Some Jooli Inc. standards you should follow:
 7. Navigation menu > **STORAGE** > Storage > Select your bucket > Upload files
 8. Refresh bucket
 
-## Task 4: Remove the previous cloud engineer
+### Task 4: Remove the previous cloud engineer
 
 1. Navigation menu > IAM & Admin
 2. Search for the "**Username 2**" > Edit > Delete Role
