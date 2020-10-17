@@ -6,6 +6,10 @@ This repository contains the some important information related to **30 Days of 
 
 ## Challenge Lab Solutions
 
+These are the solutions to the Challenge Labs of the **Cloud Engineering Track**.
+
+> Please try the labs yourself and take help from here only if you get stuck.
+
 1. [Getting Started: Create and Manage Cloud Resources: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Getting%20Started:%20Create%20and%20Manage%20Cloud%20Resources:%20Challenge%20Lab.md)
 2. [Perform Foundational Infrastructure Tasks in Google Cloud: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Perform%20Foundational%20Infrastructure%20Tasks%20in%20Google%20Cloud%20Challenge%20Lab.md)
 3. [Setup and Configure a Cloud Environment in Google Cloud: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Set%20up%20and%20Configure%20a%20Cloud%20Environment%20in%20Google%20Cloud:%20Challenge%20Lab.md)
@@ -14,6 +18,8 @@ This repository contains the some important information related to **30 Days of 
 6. Deploy to Kubernetes in Google Cloud: Challenge Lab
 
 ## Important Resources
+
+
 
 ## Program Syllabus
 
