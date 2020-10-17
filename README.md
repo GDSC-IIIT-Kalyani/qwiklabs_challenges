@@ -17,11 +17,31 @@ These are the solutions to the Challenge Labs of the **Cloud Engineering Track**
 5. [Build and Secure Networks in Google Cloud: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Build%20and%20Secure%20Networks%20in%20Google%20Cloud:%20Challenge%20Lab.md)
 6. Deploy to Kubernetes in Google Cloud: Challenge Lab
 
-## Important Resources
+## Resources
 
-
+* [[IMPORTANT] 30 Days of Google Cloud Program description page](https://events.withgoogle.com/30daysofgooglecloud/)
+* [[IMPORTANT] Google Cloud Docs](https://cloud.google.com/docs)
+* [Google Cloud Blog](https://cloud.google.com/blog/)
+* [[Article] Migration to Google Cloud Platform (GCP)](https://blog.hike.in/migration-to-google-cloud-platform-gcp-17c397e564b8)
 
 ## Program Syllabus
+
+* Track 1: Cloud Engineering Track
+
+  * [Getting Started: Create and Manage Cloud Resources](https://google.qwiklabs.com/quests/120) 
+  * [Perform Foundational Infrastructure Tasks in Google Cloud](https://google.qwiklabs.com/quests/118)
+  * [Setup and Configure a Cloud Environment in Google Cloud](https://google.qwiklabs.com/quests/119?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
+  * [Deploy and Manage Cloud Environments with Google Cloud](https://google.qwiklabs.com/quests/121?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
+  * [Build and Secure Networks in Google Cloud](https://google.qwiklabs.com/quests/128?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
+  * [Deploy to Kubernetes in Google Cloud](https://google.qwiklabs.com/quests/116?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
+
+* Track 2: Data Science and Machine Learning Track
+  * [Getting Started: Create and Manage Cloud Resources](https://google.qwiklabs.com/quests/120) 
+  * [Perform Foundational Data, ML, and AI Tasks in Google Cloud](https://google.qwiklabs.com/quests/117?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
+  * [Insights from Data with BigQuery](https://google.qwiklabs.com/quests/123)
+  * [Engineer Data in Google Cloud](https://google.qwiklabs.com/quests/132)
+  * [Integrate with Machine Learning APIs](https://google.qwiklabs.com/quests/136?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
+  * [Explore Machine Learning Models with Explainable AI](https://google.qwiklabs.com/quests/126?utm_source=google&utm_medium=lp&utm_campaign=gcpskills)
 
 ## Prizes
 
