@@ -1,6 +1,12 @@
 # Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab
 
-### Task 1:
+> Launch the lab [here](https://google.qwiklabs.com/focuses/11044?parent=catalog)
+
+## Your challenge
+
+As a junior data engineer in Jooli Inc. and recently trained with Google Cloud and a number of data services you have been asked to demonstrate your newly learned skills. The team has asked you to complete the following tasks.
+
+### Task 1: Run a simple Dataflow job
 
 * Navigation menu > Storage > Browser
 
@@ -34,7 +40,7 @@ cat lab.schema
 
 * Run the Job.
 
-### Task 2:
+### Task 2: Run a simple Dataproc job
 
 * Go to **Dataproc** > Clusters > Create Cluster
 
@@ -56,7 +62,7 @@ hdfs dfs -cp gs://cloud-training/gsp323/data.txt /data.txt
 
 * Click on **SUBMIT**
 
-### Task 3:
+### Task 3: Run a simple Dataprep job
 
 * Go to **Dataprep** > Accept the terms > Login with the same account
 
@@ -64,9 +70,9 @@ hdfs dfs -cp gs://cloud-training/gsp323/data.txt /data.txt
 
 * Modify the table as specified in the lab instructions.
 
-### Task 4:
+### Task 4: AI
 
-PART 1
+**<u>PART 1</u>**
 
 Use the following commands:
 
@@ -89,7 +95,7 @@ gcloud auth login
 gsutil cp result.json gs://YOUR_PROJECT-marking/task4-cnl.result
 ```
 
-PART 2
+**<u>PART 2</u>**
 
 * Create an API Key by going to IAM > Credentials, and export it as `API_KEY` variable in the Cloud Shell. 
 
@@ -120,7 +126,7 @@ curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json 
 gsutil cp result.json gs://YOUR_PROJECT-marking/task4-gcs.result
 ```
 
-PART 3
+**<u>PART 3</u>**
 
 * Run the following:
 
