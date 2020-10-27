@@ -22,23 +22,23 @@ cat lab.schema
 
 * Now, create a table inside the `lab` dataset and configure it as follows:
 
-// image
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/table_1.png)
 
 * Click on **Create table**
 
 * Go to **Dataflow** > Jobs > Create Job from Template
 
-//image
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/job_1.png)
 
-//image
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/job_2.png)
+
+* Run the Job.
 
 ### Task 2:
 
 * Go to **Dataproc** > Clusters > Create Cluster
 
-//image
-
-
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/cluster.png)
 
 * Select the Created Cluster > Go to **VM Instances** > **SSH** into cluster
 
@@ -52,7 +52,7 @@ hdfs dfs -cp gs://cloud-training/gsp323/data.txt /data.txt
 
 * Submit Job > Configure as given:
 
-//image
+![](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/raw/master/screenshots/job_3.png)
 
 * Click on **SUBMIT**
 
@@ -63,8 +63,6 @@ hdfs dfs -cp gs://cloud-training/gsp323/data.txt /data.txt
 * Import Data > Select GCS > Edit > Enter the path as this: `gs://cloud-training/gsp323/runs.csv` > Import and Wrangle
 
 * Modify the table as specified in the lab instructions.
-
-
 
 ### Task 4:
 
