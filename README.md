@@ -17,7 +17,7 @@ These are the solutions to the Challenge Labs of the **Cloud Engineering Track**
 5. [Build and Secure Networks in Google Cloud: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Build%20and%20Secure%20Networks%20in%20Google%20Cloud:%20Challenge%20Lab.md)
 6. Deploy to Kubernetes in Google Cloud: Challenge Lab
 
-Solutions to the Challenge Labs of the **Cloud Engineering Track**.
+Solutions to the Challenge Labs of the **Data Science & Machine Learning Track**.
 
 1. [Getting Started: Create and Manage Cloud Resources: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Getting%20Started:%20Create%20and%20Manage%20Cloud%20Resources:%20Challenge%20Lab.md)
 2. [Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab](https://github.com/DSC-IIIT-Kalyani/qwiklabs_challenges/blob/master/Perform%20Foundational%20Data%2C%20ML%2C%20and%20AI%20Tasks%20in%20Google%20Cloud:%20Challenge%20Lab.md)
