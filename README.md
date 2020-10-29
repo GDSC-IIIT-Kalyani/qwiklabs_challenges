@@ -2,7 +2,7 @@
 
 This repository contains the some important information related to **30 Days of Google Cloud** program as well as some of the solutions to the **Challenge Labs**!
 
-> **[UPDATE 17/10/2020]**: The Cloud Engineering Challenge Lab solutions are almost complete except the challenge lab of the last quest which will be added soon.
+> **[UPDATE 29/10/2020]**: All the solutions for challenge labs of the `Data Science & Machine Learning Track` are uploaded. The `Cloud Engineering Track` Challenge Lab solutions are almost complete except the challenge lab of the last quest which will be added soon.
 
 ## Challenge Lab Solutions
 
