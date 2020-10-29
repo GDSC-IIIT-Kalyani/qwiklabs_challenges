@@ -9,7 +9,7 @@ You're part of a public health organization which is tasked with identifying ans
 The dataset and table that will be used for this analysis will be : `bigquery-public-data.covid19_open_data.covid19_open_data`. This repository contains country-level datasets of daily time-series data related to COVID-19 globally. It includes data relating to demographics, economy, epidemiology, geography, health, hospitalizations, mobility, government response, and weather.
 
 * Go to **BigQuery**  
-* Go to **Resources** > Add Data > Expore public datasets
+* Go to **Resources** > Add Data > Explore public datasets
 * Select **COVID-19 Open Data** > **VIEW DATASET**
 
 ### Query 1: Total Confirmed Cases
