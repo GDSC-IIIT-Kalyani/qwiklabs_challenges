@@ -10,7 +10,7 @@ As soon as you sit down at your desk and open your new laptop you receive your f
 
 ### Task 1: Clean your training data
 
-Go to **BigQuery** > 
+Go to **BigQuery** > Run these queries:
 
 ```sql
 CREATE OR REPLACE TABLE
