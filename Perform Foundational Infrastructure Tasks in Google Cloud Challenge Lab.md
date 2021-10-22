@@ -16,7 +16,7 @@ You are now asked to help a newly formed development team with some of their ini
 Some Jooli Inc. standards you should follow:
 
 - Create all resources in the **us-east1** region and **us-east1-b** zone, unless otherwise directed.
-- Use the project VPCs.
+- Use the projectdatd VPCs.
 - Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
 - Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **f1-micro** for small Linux VMs and **n1-standard-1** for Windows or other applications such as Kubernetes nodes.
 
@@ -24,7 +24,7 @@ Some Jooli Inc. standards you should follow:
 
 ### Task 1: Create a bucket
 
-1. Navigation menu > **STORAGE** > Storage > Create Bucket
+1. Navigation menu > **Cloud Storage** > Browser > Create Bucket
 2. Name your bucket > Enter **GCP Project ID** > Continue
 3. Choose where to store your data > **Region:** us-east1 > Continue
 4. Use default for the remaining 
@@ -32,12 +32,12 @@ Some Jooli Inc. standards you should follow:
 
 ### Task 2: Create a Pub/Sub topic
 
-1. Navigation menu > **BIG DATA** > Pub/Sub
+1. Navigation menu > **Pub/Sub** > Topics
 2. Create Topic > **Name:** Jooli > Create Topic
 
 ### Task 3: Create the thumbnail Cloud Function
 
-1. Navigation menu > **COMPUTE** >  Cloud Functions > Create Function
+1. Navigation menu > **Cloud Functions** > Create Function
 
 2. Use the following config:
 
@@ -53,10 +53,10 @@ Some Jooli Inc. standards you should follow:
    **Entry point:** thumbnail
 5. Add the code appropiately
 6. Download the image from URL
-7. Navigation menu > **STORAGE** > Storage > Select your bucket > Upload files
+7. Navigation menu > **Cloud Storage** > Browser > Select your bucket > Upload files
 8. Refresh bucket
 
 ### Task 4: Remove the previous cloud engineer
 
-1. Navigation menu > IAM & Admin
+1. Navigation menu > **IAM & Admin** > IAM
 2. Search for the "**Username 2**" > Edit > Delete Role
