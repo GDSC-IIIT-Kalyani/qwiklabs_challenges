@@ -52,7 +52,7 @@ limited_model.fit(limited_train_data, limited_train_labels, epochs=10, batch_siz
 
 ### Deploy the models to AI Platform
 
-* Enter the peoper information block 16.
+* Enter the peoper information block 16. Change the saved_limited_model to limited_model and saved_completed_model to completed_model .
 
 * Block 19:
 
@@ -67,7 +67,7 @@ limited_model.fit(limited_train_data, limited_train_labels, epochs=10, batch_siz
 --model=$MODEL_NAME \
 --framework='Tensorflow' \
 --runtime-version=2.1 \
---origin=$MODEL_BUCKET/saved_model/my_model \
+--origin=$MODEL_BUCKET/completed_model \
 --staging-bucket=$MODEL_BUCKET \
 --python-version=3.7
 ```
@@ -85,7 +85,7 @@ limited_model.fit(limited_train_data, limited_train_labels, epochs=10, batch_siz
 --model=$LIM_MODEL_NAME \
 --framework='Tensorflow' \
 --runtime-version=2.1 \
---origin=$MODEL_BUCKET/saved_limited_model/my_limited_model \
+--origin=$MODEL_BUCKET/limited_model \
 --staging-bucket=$MODEL_BUCKET \
 --python-version=3.7
 ```
