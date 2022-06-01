@@ -25,7 +25,7 @@ Some Jooli Inc. standards you should follow:
 ### Task 1: Create a bucket
 
 1. Navigation menu > **Cloud Storage** > Browser > Create Bucket
-2. Name your bucket > Enter **GCP Project ID** > Continue
+2. Name your bucket > Enter **Enter Enter Given Bucket Name in Project** > Continue
 3. Choose where to store your data > **Region:** us-east1 > Continue
 4. Use default for the remaining 
 5. Create
@@ -33,7 +33,7 @@ Some Jooli Inc. standards you should follow:
 ### Task 2: Create a Pub/Sub topic
 
 1. Navigation menu > **Pub/Sub** > Topics
-2. Create Topic > **Name:** Jooli > Create Topic
+2. Create Topic > Name: **Enter Given Topic Name in Project** > Create Topic
 
 ### Task 3: Create the thumbnail Cloud Function
 
@@ -41,7 +41,7 @@ Some Jooli Inc. standards you should follow:
 
 2. Use the following config:
 
-   **Name:** CFJooli
+   **Name:** **Enter Given Function Name in Project**
    **Region:** us-east1
    **Trigger:** Cloud Storage
    **Event type:** Finalize/Create
@@ -49,10 +49,10 @@ Some Jooli Inc. standards you should follow:
 
 3. Remaining default > Next
 
-4. **Runtime:** Node.js 10
+4. **Runtime:** Node.js 14
    **Entry point:** thumbnail
 5. Add the code appropiately
-6. Download the image from URL
+6. Download the image from URL (https://storage.googleapis.com/cloud-training/gsp315/map.jpg)
 7. Navigation menu > **Cloud Storage** > Browser > Select your bucket > Upload files
 8. Refresh bucket
 
