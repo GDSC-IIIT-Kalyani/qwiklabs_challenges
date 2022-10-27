@@ -75,4 +75,10 @@ gcloud compute instances add-tags juice-shop --tags=<SSH internal network tag> -
 ```yaml
 ssh <internal IP of the juice-shop>
 ```
+* If you get a `Permission denied (publickey).` error, run the below code:
+  
+```yaml
+gcloud compute ssh juice-shop --internal-ip
+```
+
 
